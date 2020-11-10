@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jun 26 13:04:44 2020
+# Process ID: 18784
+# Current directory: C:/Archlabs/lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18604 C:\Archlabs\lab06\lab06.xpr
+# Log file: C:/Archlabs/lab06/vivado.log
+# Journal file: C:/Archlabs/lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Archlabs/lab06/lab06.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl

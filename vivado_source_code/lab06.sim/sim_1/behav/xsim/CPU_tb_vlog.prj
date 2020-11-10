@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab06.srcs/sources_1/new/AdvanceDecide.v" \
+"../../../../lab06.srcs/sources_1/imports/new/Alu.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/imports/Archlabs/lab03/Ctr.v" \
+"../../../../lab06.srcs/sources_1/new/EXMEM.v" \
+"../../../../lab06.srcs/sources_1/new/IDEX.v" \
+"../../../../lab06.srcs/sources_1/new/IFID.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/new/InstMemory.v" \
+"../../../../lab06.srcs/sources_1/new/MEMWB.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/new/MuxAlu.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/new/Muxwritereg.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/new/PC.v" \
+"../../../../lab06.srcs/sources_1/new/Pcadd4.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/imports/Archlabs/lab04/lab04.srcs/sources_1/new/Registers.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/new/Top.v" \
+"../../../../lab06.srcs/sources_1/new/addressgen.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/imports/Archlabs/lab03/aluCtr.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/imports/Archlabs/lab04/lab04.srcs/sources_1/new/dataMemory.v" \
+"../../../../lab06.srcs/sources_1/new/jumpaddressgen.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/new/muxMemory.v" \
+"../../../../lab06.srcs/sources_1/new/muxpc.v" \
+"../../../../lab06.srcs/sources_1/imports/sources_1/imports/Archlabs/lab04/lab04.srcs/sources_1/new/signext.v" \
+"../../../../lab06.srcs/sim_1/imports/new/CPU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,275 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun 30 13:00:23 2020
+# Process ID: 11332
+# Current directory: C:/Archlabs/lab06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10100 C:\Archlabs\lab06\lab06.xpr
+# Log file: C:/Archlabs/lab06/vivado.log
+# Journal file: C:/Archlabs/lab06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Archlabs/lab06/lab06.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/alu/aluCtr}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/readdata1}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/readdata2}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/muxalu/output1}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/readdata1out}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/readdata2out}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/lastlastisload}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/lastisload}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/loadregdist}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/currentreg1}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/idex/currentreg2}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1000
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/Jumpaddressgen/readdata1}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/Jumpaddressgen/jr}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/registers/readData1}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/registers/readData2}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/registers/readReg1}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/registers/readReg2}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1200
+run 200
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/Jumpaddressgen/jumpaddress}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/Jumpaddressgen/readdata1}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+run 1000
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1000
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1200
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1500
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/Muxpc/jump}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/Muxpc/branch}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1600
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/ctr/jr}} 
+current_wave_config {CPU_tb_behav.wcfg}
+add_wave {{/CPU_tb/u0/ctr/Jump}} 
+save_wave_config {C:/Archlabs/lab06/CPU_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1200
+run 400
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1600
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1600
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 1600
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+run 500
+close_sim
+launch_simulation
+open_wave_config C:/Archlabs/lab06/CPU_tb_behav.wcfg
+source CPU_tb.tcl
+close_sim
